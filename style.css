@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    margin: 3px 10px; 
-    font-family: Helvetica, sans-serif;
+    margin: 0 0; 
+    font-family: roboto, sans-serif;
 }    
 
 header {
@@ -65,7 +71,7 @@ header {
 .hero-title {
     margin-bottom: 5px;
     margin-top: 0px;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: bold;
     
 }
@@ -181,3 +187,24 @@ img {
 .quote-text {
     font-style: italic;
 }
+
+.box-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882f6;
+    margin: 50px 75px;
+    border-radius: 10px;
+    color: #fff;
+    gap: 2rem;
+}
+
+
+
