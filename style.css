@@ -121,21 +121,38 @@ img {
     color: black;
     position: relative;
     margin-bottom: 0;
+    -webkit-transform: translateZ(0)
+
+}
+
+.boxes {
+    -webkit-transform: translateZ(0)
+
 }
 
 .random {
     margin: 5px;
 }
 
+.box-row {
+    -webkit-transform: translateZ(0)
+
+}
+
+
 .box-row div {
     outline: 3px solid #3882F6;
     height: 90px;
     width: 90px;
-    border-radius: 15px;
     margin-top: 0;
     margin-bottom: 10px;
-
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;    
+    -khtml-border-radius: 12px;
+    -webkit-transform: translateZ(0)
 }
+
 
 .text-row div {
     height: 90px;
@@ -197,13 +214,22 @@ img {
 
 .blue-box {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
     background: #3882f6;
     margin: 50px 75px;
     border-radius: 10px;
     color: #fff;
-    gap: 2rem;
+    padding: 10px 25px;
+    flex-wrap: nowrap;
+}
+
+.blue-box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
 
